@@ -1,0 +1,21 @@
+package src.my.socket.server.info;
+
+/**
+ * @deprecated 服务器协议
+ */
+public enum ObjectInfo {
+
+    LOGIN_MESSAGE,//登录
+    LOGIN_FAIL_MESSAGE,
+    LOGIN_SUCCEFF_MESSAGE,
+    REGISTER_MESSAGE,//注册
+    REGISTER_FAIL_MESSAGE,
+    REGISTER_SUCCEFF_MESSAGE,
+    PRIVATE_CHAT_MESSAGE,//私聊
+    PRIVATE_CHAT_FAIL_MESSAGE,
+    PRIVATE_CHAT_SUCCEFF_MESSAGE,
+    PUBLIC_CHAT_MESSAGE,//群聊
+    PUBLIC_CHAT_FAIL_MESSAGE,
+    PUBLIC_CHAT_SUCCEFF_MESSAGE
+
+}
